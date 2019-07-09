@@ -20,8 +20,7 @@
                 [`(,(? p?) . ,ps)
                  (loop 'new-state ps)]
                 ...
-                [`()  (equal? 'state-type '#:accepting)]
-                [else (equal? 'state-type '#:rejecting)])]
+                [`()  (equal? 'state-type '#:accepting)])]
              ...)))]))
 
 (define (any? x) #t)
