@@ -1,0 +1,6 @@
+*.rkt~
+*.bak
+day3/compiled
+lab1/compiled
+lab2/compiled
+day3/pfsh/compiled
